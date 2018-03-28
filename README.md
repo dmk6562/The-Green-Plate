@@ -8,8 +8,8 @@ Project Description: An app that allows user to search for recipes by inputting 
 
 APIs to be Used: https://developer.edamam.com/
 
-Edamam Recipe Search 
-Edamam Nutrition Wizard
+1. Edamam Recipe Search 
+2. Edamam Nutrition Wizard
 
 Our Next Task:
 Create a potential sketch
