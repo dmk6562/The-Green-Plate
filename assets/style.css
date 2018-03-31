@@ -1,0 +1,18 @@
+nav { 
+    float: right; 
+    margin-top:15px; 
+}
+
+nav a {
+    text-decoration: none; 
+    padding-left: 15px; 
+    line-height: 18px; 
+    color: #999999; 
+    margin-left: 15px; 
+    border-left: 1px solid #efefef;
+    display: inline-block; 
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
