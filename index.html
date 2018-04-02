@@ -59,7 +59,7 @@
         <!-- Food Categories -->
             <div class = "panel panel-default" id = "foodCategories">
                     <div class="btn-group" role="group" aria-label=>
-                        <button type="button" class="btn btn-default">Dairy</button>
+                        <button type="button" class="btn btn-default" id = "dairyButton">Dairy</button>
                         <button type="button" class="btn btn-default">Bread and Pasta</button>
                         <button type="button" class="btn btn-default">Nuts</button>
                     </div>
@@ -80,7 +80,6 @@
          <!-- Ingredients -->
             <div class = "panel panel-default" id = "ingredients">
                 <h3> Ingredients go here</h3>
-
             </div>
 
         <!-- Selected Ingredients -->
@@ -89,29 +88,20 @@
 
             </div>
 
+            <button class = "btn btn-default" id = "generateRecipe" type = "search">Search</button>
+
+			<button class = "btn btn-default" id = "clearRecipe" type = "reset">Clear</button>
+
+
+		<!-- Recipes from API -->
+			<div class = "panel panel-default" id = "apiRecipes">
+				<h3> API recipes go here</h3>
+			</div>
+
         </div>
 
     </div>
 </div>
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!--JavaScript-->
 <script src="assets/app.js"></script>
