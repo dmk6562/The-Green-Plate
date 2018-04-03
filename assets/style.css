@@ -16,3 +16,9 @@ nav a {
 nav a:first-child {
     border-left: 0 none;
 }
+
+
+#foodCategories {
+    align-content: center;
+    
+}
