@@ -22,3 +22,10 @@ nav a:first-child {
     align-content: center;
     
 }
+
+.jumbotron {
+	background-color: transparent;
+    border-bottom: 3px solid white;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}

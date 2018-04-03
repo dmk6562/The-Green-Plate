@@ -262,6 +262,8 @@ var config = {
         getfruitProducts();
       });
 
+  // --------------------------------------------------------------------------------------------------------- //    
+
     // Display chosen ingredient in Selected Ingredient Panel <--- Dairy
       $(document).on("click",".dairyBtn", function(event) {
         
@@ -455,6 +457,7 @@ var config = {
     getRecipes();
   });
 
+ // --------------------------------------------------------------------------------------------------------- // 
   // Function for displaying initial recipe array elements as buttons//
     function getRecipes() {
         var apiKey = "899742294e75cfd27b128b2974895e4d";
@@ -473,15 +476,16 @@ var config = {
             var apiImage = $("<a href =" + hits[i].recipe.url + " target='_blank'><img src= '" + hits[i].recipe.image + "'></img></a>")
             //apiImage.append(response.hits[i].recipe.image);
             $("#apiRecipes").append(apiImage);
-            $("#apiRecipes").append("        ");
+            $("#apiRecipes").append("     ");
         }
       });
         
     } 
     
-
-    // <------------------------------------- Up until here the code for the Food Api works ---------------------------------->
-    //disableButton(); 
+  // <------------------------------------- Up until here the code for the Food Api works ---------------------------------->
+    
+  
+  //disableButton(); 
 
       //Display Recipes
 
