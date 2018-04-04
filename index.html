@@ -23,6 +23,9 @@
 
 <!-- Moment.js -->
 <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     
 <!--- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Pacifico" rel="stylesheet">
@@ -37,18 +40,28 @@
     <!-- Main Container -->
     <div class = "container" id = "pageOne">
 
-       <nav class = "navbar navbar-default navbar-fixed-top">
+       <!-- <nav class = "navbar navbar-default navbar-fixed-top">
 
            <a href="index.html">Home</a>
            <a href="app.js">Recipes</a>
-           <a href="app.js">Nutrition</a>
+           <a href="app.js">Store Locator</a>
 
-       </nav>
+       </nav> -->
+       <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">The Green Plate</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">Home</a></li>
+            <li><a href="badges.html">Recipes</a></li>
+            <li><a href="collapsible.html">Store Locator</a></li>
+          </ul>
+        </div>
+      </nav>
 
        <!--Jumbotron for Title-->
 
        <div class = "jumbotron" style = "margin-top:70px">
-           <h1 style = "text-align:center">"Feed Me"</h1>
+           <h1 style = "text-align:center">"The Green Plate"</h1>
            <h3 style = "text-align: center">A Vegetarian-Friendly Recipe Finder!</h3>
        </div>
 
@@ -59,28 +72,27 @@
         <!-- Food Categories -->
             <div class = "panel panel-default" id = "foodCategories">
                     <div class="btn-group" role="group" aria-label=>
-                        <button type="button" class="btn btn-default">Dairy</button>
-                        <button type="button" class="btn btn-default">Bread and Pasta</button>
-                        <button type="button" class="btn btn-default">Nuts</button>
+                        <button type="button" class="btn btn-default" id = "dairyButton">Dairy</button>
+                        <button type="button" class="btn btn-default" id = "breadButton">Bread and Pasta</button>
+                        <button type="button" class="btn btn-default" id = "nutsSeedsButton">Nuts and Seeds</button>
                     </div>
                     <br></br>
                     <div>
-                        <button type="button" class="btn btn-default">Legumes</button>
-                        <button type="button" class="btn btn-default">Root Vegetables</button>
-                        <button type="button" class="btn btn-default">Herbs</button>
+                        <button type="button" class="btn btn-default" id = "legumesButton">Legumes</button>
+                        <button type="button" class="btn btn-default" id = "rootVegetablesButton">Root Vegetables</button>
+                        <button type="button" class="btn btn-default" id = "herbsButton">Herbs</button>
                     </div>
                     <br></br>
                     <div>
-                        <button type="button" class="btn btn-default">Leafy Greens</button>
-                        <button type="button" class="btn btn-default">Crucifers</button>
-                        <button type="button" class="btn btn-default">Fruit</button>
+                        <button type="button" class="btn btn-default" id = "leafyGreensButton">Leafy Greens</button>
+                        <button type="button" class="btn btn-default" id = "squashButton">Squash</button>
+                        <button type="button" class="btn btn-default" id = "fruitsButton">Fruit</button>
                     </div>
             </div>
 
          <!-- Ingredients -->
             <div class = "panel panel-default" id = "ingredients">
                 <h3> Ingredients go here</h3>
-
             </div>
 
         <!-- Selected Ingredients -->
@@ -89,23 +101,20 @@
 
             </div>
 
+            <button class = "btn btn-default" id = "generateRecipe" type = "search">Search</button>
+
+			<button class = "btn btn-default" id = "clearRecipe" type = "reset">Clear</button>
+
+
+		<!-- Recipes from API -->
+			<div class = "panel panel-default" id = "apiRecipes">
+				<h3> API recipes go here</h3>
+			</div>
+
         </div>
 
     </div>
 </div>
-
-    
-
-
-
-
-
-
-
-
-
-
-
 
 <!--JavaScript-->
 <script src="assets/app.js"></script>
