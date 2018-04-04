@@ -36,21 +36,21 @@ There is a commented line that will show you the computer output.
 
 ## Contributing
 
-* **Mariam Chaudry** - *Edamam API* - [Mariam Chaudry](https://github.com/mariamschaundry)
+* **Mariam Chaudry** - *Edamam API* - [Mariam Chaudry](https://github.com/mariamschaudry)
 * **Elizabeth Fox** - *Google Maps API* - [Elizabeth Fox](https://github.com/elizabethtfox)
 * **Catherine Muthoni** - *Materialize* - [Catherine Muthoni](https://github.com/dmk6562)
 * **Rodolfo Saez** - *Readme Engineer* - [Rodolfo Saez](https://github.com/rsaez)
 
-See also the list of [contributors](https://github.com/miriamschaubry/project-1/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/mariamschaudry/project-1/contributors) who participated in this project.
 
 ## Authors
 
-* **Mariam Chaudry** - *Edamam API* - [Mariam Chaudry](https://github.com/mariamschaundry)
+* **Mariam Chaudry** - *Edamam API* - [Mariam Chaudry](https://github.com/mariamschaudry)
 * **Elizabeth Fox** - *Google Maps API* - [Elizabeth Fox](https://github.com/elizabethtfox)
 * **Catherine Muthoni** - *Materialize* - [Catherine Muthoni](https://github.com/dmk6562)
 * **Rodolfo Saez** - *Readme Engineer* - [Rodolfo Saez](https://github.com/rsaez)
 
-See also the list of [contributors](https://github.com/miriamschaubry/project-1/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/mariamschaudry/Project-1/pulse) who participated in this project.
 
 ## License
 
