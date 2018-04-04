@@ -1,4 +1,4 @@
-# Green Plate
+# The Green Plate
 
 An app that allows users to search for vegetarian recipes by selecting ingredients. Nutrition facts included. Then look for a local grocery store.
 
