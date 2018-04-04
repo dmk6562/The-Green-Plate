@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $(document).ready(function() {
 
 // Initialize Firebase //
@@ -520,6 +519,3 @@ var config = {
 
     // };
   });
-=======
-// my changes //
->>>>>>> recipes
