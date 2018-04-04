@@ -473,7 +473,7 @@ var config = {
             console.log(hits[i].recipe.image);
 
             // var apiImage = $("<img src= '" + hits[i].recipe.image + "'></img>");
-            var apiImage = $("<a href =" + hits[i].recipe.url + " target='_blank'><img src= '" + hits[i].recipe.image + "'></img></a>")
+            var apiImage = $("<a href =" + hits[i].recipe.shareAs + " target='_blank'><img src= '" + hits[i].recipe.image + "'></img></a>")
             //apiImage.append(response.hits[i].recipe.image);
             $("#apiRecipes").append(apiImage);
             $("#apiRecipes").append("     ");
