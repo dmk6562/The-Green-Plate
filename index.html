@@ -41,7 +41,7 @@
 
            <a href="index.html">Home</a>
            <a href="app.js">Recipes</a>
-           <a href="app.js">Nutrition</a>
+           <a href="app.js">Store Locator</a>
 
        </nav>
 
@@ -59,28 +59,27 @@
         <!-- Food Categories -->
             <div class = "panel panel-default" id = "foodCategories">
                     <div class="btn-group" role="group" aria-label=>
-                        <button type="button" class="btn btn-default">Dairy</button>
-                        <button type="button" class="btn btn-default">Bread and Pasta</button>
-                        <button type="button" class="btn btn-default">Nuts</button>
+                        <button type="button" class="btn btn-default" id = "dairyButton">Dairy</button>
+                        <button type="button" class="btn btn-default" id = "breadButton">Bread and Pasta</button>
+                        <button type="button" class="btn btn-default" id = "nutsSeedsButton">Nuts and Seeds</button>
                     </div>
                     <br></br>
                     <div>
-                        <button type="button" class="btn btn-default">Legumes</button>
-                        <button type="button" class="btn btn-default">Root Vegetables</button>
-                        <button type="button" class="btn btn-default">Herbs</button>
+                        <button type="button" class="btn btn-default" id = "legumesButton">Legumes</button>
+                        <button type="button" class="btn btn-default" id = "rootVegetablesButton">Root Vegetables</button>
+                        <button type="button" class="btn btn-default" id = "herbsButton">Herbs</button>
                     </div>
                     <br></br>
                     <div>
-                        <button type="button" class="btn btn-default">Leafy Greens</button>
-                        <button type="button" class="btn btn-default">Crucifers</button>
-                        <button type="button" class="btn btn-default">Fruit</button>
+                        <button type="button" class="btn btn-default" id = "leafyGreensButton">Leafy Greens</button>
+                        <button type="button" class="btn btn-default" id = "squashButton">Squash</button>
+                        <button type="button" class="btn btn-default" id = "fruitsButton">Fruit</button>
                     </div>
             </div>
 
          <!-- Ingredients -->
             <div class = "panel panel-default" id = "ingredients">
                 <h3> Ingredients go here</h3>
-
             </div>
 
         <!-- Selected Ingredients -->
@@ -89,31 +88,20 @@
 
             </div>
 
+            <button class = "btn btn-default" id = "generateRecipe" type = "search">Search</button>
+
+			<button class = "btn btn-default" id = "clearRecipe" type = "reset">Clear</button>
+
+
+		<!-- Recipes from API -->
+			<div class = "panel panel-default" id = "apiRecipes">
+				<h3> API recipes go here</h3>
+			</div>
+
         </div>
 
     </div>
 </div>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!--JavaScript-->
 <script src="assets/app.js"></script>
