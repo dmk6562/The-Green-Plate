@@ -125,9 +125,9 @@ nav a:first-child {
     border: 0;
     border-radius: 50%;
     background-size: 210px 210px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
-    font-size: 12px; 
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 12px;
     outline-style: none;
 }
 
@@ -141,8 +141,8 @@ nav a:first-child {
     border: 0;
     border-radius: 50%;
     background-size: 210px 210px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 }
@@ -157,8 +157,8 @@ nav a:first-child {
     border: 0;
     border-radius: 50%;
     background-size: 210px 210px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 }
@@ -173,8 +173,8 @@ nav a:first-child {
     border: 0;
     border-radius: 50%;
     background-size: 210px 210px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
     float: left;
@@ -190,8 +190,8 @@ nav a:first-child {
     border: 0;
     border-radius: 50%;
     background-size: 210px 210px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 }
@@ -206,8 +206,8 @@ nav a:first-child {
     border: 0;
     border-radius: 50%;
     background-size: 210px 210px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 }
@@ -222,8 +222,8 @@ nav a:first-child {
     border: 0;
     border-radius: 50%;
     background-size: 210px 210px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 
@@ -239,8 +239,8 @@ nav a:first-child {
     border: 0;
     border-radius: 50%;
     background-size: 210px 210px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 
@@ -256,16 +256,16 @@ nav a:first-child {
     border: 0;
     border-radius: 50%;
     background-size: 210px 210px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 
 }
 
 #foodCategories {
-    border: 0px solid; 
-    padding-left: 280px; 
+    border: 0px solid;
+    padding-left: 280px;
 }
 
 #brand-logo {
@@ -305,4 +305,5 @@ nav a:first-child {
    margin: 2em;
    /* border-radius: 50%; */
    border-radius: 20px;
+   border: 1px ridge lightgrey;
 }
