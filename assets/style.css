@@ -302,9 +302,6 @@ nav a:first-child {
 }
 
 
-
-
-
 #apiRecipes {
     background: ededed;
 
@@ -315,4 +312,5 @@ nav a:first-child {
    margin: 2em;
    /* border-radius: 50%; */
    border-radius: 20px;
+   border: 1px ridge lightgrey;
 }
