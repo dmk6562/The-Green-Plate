@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  $(document).ready(function(){
+    $('.slider').slider();
+  });
+
 // Initialize Firebase //
 
 var config = {
@@ -457,6 +461,22 @@ var config = {
     getRecipes();
   });
 
+
+// Clear button reset (will clear out all of the text boxes without a page refresh //
+
+  $("#clearRecipe").on("click", function(event) {
+    event.preventDefault(); 
+
+    $("#ingredients").html("");
+    $("#selectedIngredients").html("");
+    $("#apiRecipes").html("") 
+
+    console.log("i cleared the sections");
+
+  }); // <-- Closing of onclick Event for clear button //    
+
+
+    
  // --------------------------------------------------------------------------------------------------------- // 
   // Function for displaying initial recipe array elements as buttons//
     function getRecipes() {

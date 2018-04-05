@@ -15,9 +15,8 @@
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css"/>
 
- <!-- Compiled and minified CSS -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
 <!-- Bootstrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -26,7 +25,7 @@
 <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
     
 <!--- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Pacifico" rel="stylesheet">
 
 </head>
 
@@ -36,30 +35,60 @@
     <!-- Main Container -->
     <div class = "container" id = "pageOne">
 
-       <!-- <nav class = "navbar navbar-default navbar-fixed-top">
-
-           <a href="index.html">Home</a>
-           <a href="app.js">Recipes</a>
-           <a href="app.js">Store Locator</a>
-
-       </nav> -->
-
        <nav>
+
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo">The Green Plate</a>
+
+          <a href="index.html" id="brand-logo">The Green Plate</a>
+
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Home</a></li>
-            <li><a href="badges.html">Recipes</a></li>
-            <li><a href="collapsible.html">Store Locator</a></li>
+
+            <li><a href="indexStoreLocator.html" id = "storelocator">Store Locator</a></li>
+
           </ul>
+
         </div>
+
       </nav>
     
        <!--Jumbotron for Title-->
 
-       <div class = "jumbotron" style = "margin-top:70px">
-           <h1 style = "text-align:center">"The Green Plate"</h1>
-           <h3 style = "text-align: center">A Vegetarian-Friendly Recipe Finder!</h3>
+       <div class = "jumbotron" id = "theGreenPlate" style = "margin-top:70px">
+           <!-- <h1 style = "text-align:center">"The Green Plate"</h1>
+           <h3 style = "text-align: center">A Vegetarian-Friendly Recipe Finder!</h3> -->
+
+           <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="basil.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                      <h3>This is our big Tagline!</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="basil.jpg"> <!-- random image -->
+                    <div class="caption left-align">
+                      <h3>Left Aligned Caption</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="basil.jpg"> <!-- random image -->
+                    <div class="caption right-align">
+                      <h3>Right Aligned Caption</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="basil.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                      <h3>This is our big Tagline!</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                  </li>
+                </ul>
+              </div>
        </div>
 
     <div class = "row">
