@@ -3,19 +3,19 @@
     float: right;
 }
 
-nav { 
-    float: right; 
-    margin-top:15px; 
+nav {
+    float: right;
+    margin-top:15px;
 }
 
 nav a {
-    text-decoration: none; 
-    padding-left: 15px; 
-    line-height: 18px; 
-    color: #999999; 
-    margin-left: 15px; 
+    text-decoration: none;
+    padding-left: 15px;
+    line-height: 18px;
+    color: #999999;
+    margin-left: 15px;
     border-left: 1px solid #efefef;
-    display: inline-block; 
+    display: inline-block;
 }
 
 nav a:first-child {
@@ -25,14 +25,14 @@ nav a:first-child {
 
 #foodCategories {
     align-content: center;
-    
+
 }
 
 .jumbotron {
-	background-color: transparent;
+    background-color: transparent;
     border-bottom: 3px solid white;
-    padding-top: 20px; 
-    padding-bottom: 20px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #map {
@@ -71,7 +71,6 @@ nav a:first-child {
 #pac-container {
     padding-bottom: 12px;
     margin-right: 12px;
-    margin-top: 12px;
 }
 
 .pac-controls {
@@ -121,15 +120,15 @@ nav a:first-child {
     background-image: url("../assets/images/dairy5.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
-    border: 0; 
+    border: 0;
     border-radius: 50%;
-    background-size: 115px 115px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
-    font-size: 12px; 
+    background-size: 210px 210px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 12px;
     outline-style: none;
 }
 
@@ -137,14 +136,14 @@ nav a:first-child {
     background-image: url("../assets/images/bread1.jpeg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
-    border: 0; 
+    border: 0;
     border-radius: 50%;
-    background-size: 115px 115px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    background-size: 210px 210px;
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 }
@@ -153,14 +152,14 @@ nav a:first-child {
     background-image: url("../assets/images/nutsseeds2.jpeg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
-    border: 0; 
+    border: 0;
     border-radius: 50%;
-    background-size: 115px 115px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    background-size: 210px 210px;
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 }
@@ -169,31 +168,31 @@ nav a:first-child {
     background-image: url("../assets/images/legumes4.jpeg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
-    border: 0; 
+    border: 0;
     border-radius: 50%;
-    background-size: 115px 115px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    background-size: 210px 210px;
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
-    float: left; 
+    float: left;
 }
 
 #rootVegetablesButton {
     background-image: url("../assets/images/rootveg1.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
-    border: 0; 
+    border: 0;
     border-radius: 50%;
-    background-size: 115px 115px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    background-size: 210px 210px;
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 }
@@ -202,14 +201,14 @@ nav a:first-child {
     background-image: url("../assets/images/herbs4.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
-    border: 0; 
+    border: 0;
     border-radius: 50%;
-    background-size: 115px 115px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    background-size: 210px 210px;
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 }
@@ -218,14 +217,14 @@ nav a:first-child {
     background-image: url("../assets/images/spinach.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
-    border: 0; 
+    border: 0;
     border-radius: 50%;
-    background-size: 115px 115px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    background-size: 210px 210px;
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 
@@ -235,14 +234,14 @@ nav a:first-child {
     background-image: url("../assets/images/squash.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
-    border: 0; 
+    border: 0;
     border-radius: 50%;
-    background-size: 115px 115px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    background-size: 210px 210px;
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 
@@ -252,42 +251,59 @@ nav a:first-child {
     background-image: url("../assets/images/fruits.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
-    border: 0; 
+    border: 0;
     border-radius: 50%;
-    background-size: 115px 115px;
-    color: white; 
-    font-family: 'Pacifico', cursive;  
+    background-size: 210px 210px;
+    color: white;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     outline-style: none;
 
 }
 
+#foodCategories {
+    border: 0px solid;
+    padding-left: 280px;
+}
+
 #brand-logo {
-    text-decoration: none; 
+    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 22px; 
+    font-size: 22px;
     color: #66bb6a
 }
 
 #storelocator {
-    font-weight: 300px; 
+    font-weight: 300px;
     font-family: 'Open Sans', sans-serif;
-    text-decoration: none; 
-    font-size: 18px; 
-    color: #66bb6a       
+    text-decoration: none;
+    font-size: 18px;
+    color: #66bb6a
 }
-    
+
 .nav-wrapper {
-    background-color: white;  
+    background-color: white;
 }
 
 #theGreenPlate {
-    background-color: white; 
+    background-color: white;
     font-family: 'Open Sans', sans-serif;
-    color: #66bb6a 
+    color: #66bb6a
 
 
+}
+
+#apiRecipes {
+    background: ededed;
+
+}
+
+#apiRecipes img {
+    width: 210px;
+    margin: 2em;
+    /* border-radius: 50%; */
+    border-radius: 20px;
 }
