@@ -71,6 +71,7 @@ nav a:first-child {
 #pac-container {
     padding-bottom: 12px;
     margin-right: 12px;
+    margin-top: 12px;
 }
 
 .pac-controls {

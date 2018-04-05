@@ -18,16 +18,15 @@
 	<nav class = "navbar navbar-default navbar-fixed-top">
 
 		<a href="index.html">Home</a>
-		<a href="app.js">Recipes</a>
-		<a href="app.js">Nutrition</a>
+		<a href="app.js">Store Locator</a>
 
 	</nav>
 
 	<!--Jumbotron for Title-->
 
 	<div class = "jumbotron" style = "margin-top:70px">
-		<h1 style = "text-align:center">"Feed Me"</h1>
-		<h3 style = "text-align: center">Store Locator</h3>
+		<h1 style = "text-align: center">Store Locator</h1>
+		<h2 style = "text-align:center">The Green Plate</h2>
 	</div>
 
 	<div class="pac-card" id="pac-card">
@@ -108,6 +107,7 @@
                 infowindowContent.children['place-name'].textContent = place.name;
                 infowindowContent.children['place-address'].textContent = address;
                 infowindow.open(map, marker);
+                console.log(address);
             });
         }
 	</script>
