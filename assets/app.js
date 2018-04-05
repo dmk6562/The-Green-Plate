@@ -489,7 +489,7 @@ var config = {
             url: queryURL,
             method: "GET"
         }).done(function(response) {
-          var hits = respl;l;onse.hits;
+          var hits = response.hits;
           for (var i = 0; i < hits.length; i++) {
             console.log(hits[i].recipe.image);
 
