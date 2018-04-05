@@ -293,6 +293,18 @@ nav a:first-child {
     color: #66bb6a
 }
 
+#ingredients {
+    border: 0px solid;
+}
+
+#selectedIngredients {
+    border: 0px solid;
+}
+
+
+
+
+
 #apiRecipes {
     background: ededed;
 

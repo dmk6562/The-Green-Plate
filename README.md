@@ -1,6 +1,6 @@
 # The Green Plate
 
-Users will be able to input or select ingredients of their choice and the app will generate recipes that include selected ingredients. Our application targets an audience interested in exploring various vegetarian food options. We will include a store locator that will provide a list of nearby stores where users can purchase ingredients.
+Users will be able to select ingredients of their choice and the app will generate recipes that include selected ingredients. Our application targets an audience interested in exploring various vegetarian food options. We will include a store locator that will provide a list of nearby stores where users can purchase ingredients.
 
 ## Getting Started
 
