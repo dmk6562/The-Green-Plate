@@ -476,6 +476,8 @@ var config = {
   }); // <-- Closing of onclick Event for clear button //    
 
 
+  
+
     
  // --------------------------------------------------------------------------------------------------------- // 
   // Function for displaying initial recipe array elements as buttons//

@@ -119,12 +119,12 @@ nav a:first-child {
     background-image: url("../assets/images/dairy5.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
     border: 0; 
     border-radius: 50%;
-    background-size: 115px 115px;
+    background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
     font-size: 12px; 
@@ -135,12 +135,12 @@ nav a:first-child {
     background-image: url("../assets/images/bread1.jpeg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
     border: 0; 
     border-radius: 50%;
-    background-size: 115px 115px;
+    background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
     font-size: 12px;
@@ -151,12 +151,12 @@ nav a:first-child {
     background-image: url("../assets/images/nutsseeds2.jpeg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
     border: 0; 
     border-radius: 50%;
-    background-size: 115px 115px;
+    background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
     font-size: 12px;
@@ -167,12 +167,12 @@ nav a:first-child {
     background-image: url("../assets/images/legumes4.jpeg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
     border: 0; 
     border-radius: 50%;
-    background-size: 115px 115px;
+    background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
     font-size: 12px;
@@ -184,12 +184,12 @@ nav a:first-child {
     background-image: url("../assets/images/rootveg1.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
     border: 0; 
     border-radius: 50%;
-    background-size: 115px 115px;
+    background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
     font-size: 12px;
@@ -200,12 +200,12 @@ nav a:first-child {
     background-image: url("../assets/images/herbs4.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
     border: 0; 
     border-radius: 50%;
-    background-size: 115px 115px;
+    background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
     font-size: 12px;
@@ -216,12 +216,12 @@ nav a:first-child {
     background-image: url("../assets/images/spinach.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
     border: 0; 
     border-radius: 50%;
-    background-size: 115px 115px;
+    background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
     font-size: 12px;
@@ -233,12 +233,12 @@ nav a:first-child {
     background-image: url("../assets/images/squash.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
     border: 0; 
     border-radius: 50%;
-    background-size: 115px 115px;
+    background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
     font-size: 12px;
@@ -250,17 +250,22 @@ nav a:first-child {
     background-image: url("../assets/images/fruits.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 115px;
-    width: 115px;
+    height: 210px;
+    width: 210px;
     margin-top: 10px;
     border: 0; 
     border-radius: 50%;
-    background-size: 115px 115px;
+    background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
     font-size: 12px;
     outline-style: none;
 
+}
+
+#foodCategories {
+    border: 0px solid; 
+    padding-left: 280px; 
 }
 
 #brand-logo {
