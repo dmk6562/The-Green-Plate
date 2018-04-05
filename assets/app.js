@@ -20,7 +20,7 @@ var config = {
   
     // Variables for Category Ingredients
 
-    var dairyProducts =["almond milk", "skim milk", "whole milk", "butter milk", "soy milk", "cashew milk", "coconut milk", "rice milk", "hemp milk", "butter", "sour cream", "mozzarella cheese", "feta cheese", "parmesan cheese", "cottage cheese", "American cheese", "cheddar cheese", "Swiss cheese", "provolone cheese", "monterey cheese", "pecorino romano"];
+    var dairyProducts =["almond milk", "skim milk", "whole milk", "butter milk", "soy milk", "cashew milk", "coconut milk", "rice milk", "hemp milk", "butter", "sour cream", "mozzarella cheese", "feta cheese", "parmesan cheese", "cottage cheese", "American cheese", "cheddar cheese", "Swiss cheese", "provolone cheese", "monterey cheese", "pecorino romano", "eggs"];
     
     var breadProducts = ["whole wheat bread", "white bread", "sourdough bread", "pita bread", "naan bread", "rye bread", "brioche", "ciabatta bread", "roti", "tortilla", "pumpernickel bread", "flatbread", "spaghetti", "linguine", "penne", "rigatoni", "orzo", "farfalle", "lasagna noodles", "ravioli"];
 
