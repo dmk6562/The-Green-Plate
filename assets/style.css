@@ -107,3 +107,186 @@ nav a:first-child {
     font-weight: 500;
     padding: 6px 12px;
 }
+
+/* Category Buttons */
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+#dairyButton {
+    background-image: url("../assets/images/dairy5.jpg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-top: 10px;
+    border: 0; 
+    border-radius: 50%;
+    background-size: 115px 115px;
+    color: white; 
+    font-family: 'Pacifico', cursive;  
+    font-size: 12px; 
+    outline-style: none;
+}
+
+#breadButton {
+    background-image: url("../assets/images/bread1.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-top: 10px;
+    border: 0; 
+    border-radius: 50%;
+    background-size: 115px 115px;
+    color: white; 
+    font-family: 'Pacifico', cursive;  
+    font-size: 12px;
+    outline-style: none;
+}
+
+#nutsSeedsButton {
+    background-image: url("../assets/images/nutsseeds2.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-top: 10px;
+    border: 0; 
+    border-radius: 50%;
+    background-size: 115px 115px;
+    color: white; 
+    font-family: 'Pacifico', cursive;  
+    font-size: 12px;
+    outline-style: none;
+}
+
+#legumesButton {
+    background-image: url("../assets/images/legumes4.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-top: 10px;
+    border: 0; 
+    border-radius: 50%;
+    background-size: 115px 115px;
+    color: white; 
+    font-family: 'Pacifico', cursive;  
+    font-size: 12px;
+    outline-style: none;
+    float: left; 
+}
+
+#rootVegetablesButton {
+    background-image: url("../assets/images/rootveg1.jpg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-top: 10px;
+    border: 0; 
+    border-radius: 50%;
+    background-size: 115px 115px;
+    color: white; 
+    font-family: 'Pacifico', cursive;  
+    font-size: 12px;
+    outline-style: none;
+}
+
+#herbsButton {
+    background-image: url("../assets/images/herbs4.jpg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-top: 10px;
+    border: 0; 
+    border-radius: 50%;
+    background-size: 115px 115px;
+    color: white; 
+    font-family: 'Pacifico', cursive;  
+    font-size: 12px;
+    outline-style: none;
+}
+
+#leafyGreensButton {
+    background-image: url("../assets/images/spinach.jpg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-top: 10px;
+    border: 0; 
+    border-radius: 50%;
+    background-size: 115px 115px;
+    color: white; 
+    font-family: 'Pacifico', cursive;  
+    font-size: 12px;
+    outline-style: none;
+
+}
+
+#squashButton {
+    background-image: url("../assets/images/squash.jpg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-top: 10px;
+    border: 0; 
+    border-radius: 50%;
+    background-size: 115px 115px;
+    color: white; 
+    font-family: 'Pacifico', cursive;  
+    font-size: 12px;
+    outline-style: none;
+
+}
+
+#fruitsButton {
+    background-image: url("../assets/images/fruits.jpg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-top: 10px;
+    border: 0; 
+    border-radius: 50%;
+    background-size: 115px 115px;
+    color: white; 
+    font-family: 'Pacifico', cursive;  
+    font-size: 12px;
+    outline-style: none;
+
+}
+
+#brand-logo {
+    text-decoration: none; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px; 
+    color: #66bb6a
+}
+
+#storelocator {
+    font-weight: 300px; 
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none; 
+    font-size: 18px; 
+    color: #66bb6a       
+}
+    
+.nav-wrapper {
+    background-color: white;  
+}
+
+#theGreenPlate {
+    background-color: white; 
+    font-family: 'Open Sans', sans-serif;
+    color: #66bb6a 
+
+
+}

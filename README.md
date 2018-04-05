@@ -1,10 +1,10 @@
 # The Green Plate
 
-An app that allows users to search for vegetarian recipes by selecting ingredients. Nutrition facts included. Then look for a local grocery store.
+Users will be able to input or select ingredients of their choice and the app will generate recipes that include selected ingredients. Our application targets an audience interested in exploring various vegetarian food options. We will include a store locator that will provide a list of nearby stores where users can purchase ingredients.
 
 ## Getting Started
 
-You can use this app NOW: [Green Plate](https://miriamschauby.github.io/Project-1/). You can also clone or download a copy of this app by clicking the link on the top-right.
+You can use this app NOW: [Green Plate](https://mariamschaudry.github.io/Project-1/). You can also clone or download a copy of this app by clicking the link on the top-right.
 
 ### Prerequisites
 
@@ -34,23 +34,14 @@ There is a commented line that will show you the computer output.
 * [Edamam API](https://developer.edamam.com/) - Recipe and nutrition API
 * [Google Maps API](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete) - Google Maps API, Place Autocomplete
 
-## Contributing
+## Contributing Authors 
 
-* **Mariam Chaudry** - *Edamam API* - [Mariam Chaudry](https://github.com/mariamschaudry)
-* **Elizabeth Fox** - *Google Maps API* - [Elizabeth Fox](https://github.com/elizabethtfox)
-* **Catherine Muthoni** - *Materialize* - [Catherine Muthoni](https://github.com/dmk6562)
-* **Rodolfo Saez** - *Readme Engineer* - [Rodolfo Saez](https://github.com/rsaez)
+* **Mariam Chaudry** - *Project Manager*, *Edamam Recipe API*, *JavaScript*, *Materialize*,*CSS* - [Mariam Chaudry](https://github.com/mariamschaudry)
+* **Elizabeth Fox** - *Google Maps API*, *JavaScript*, *CSS* - [Elizabeth Fox](https://github.com/elizabethtfox)
+* **Catherine Muthoni** - *Edamam Recipe API*, *JavaScript*, *Materialize*, *CSS*- [Catherine Muthoni](https://github.com/dmk6562)
+* **Rodolfo Saez** - *Readme Engineer*, *CSS* - [Rodolfo Saez](https://github.com/rsaez)
 
 See also the list of [contributors](https://github.com/mariamschaudry/project-1/contributors) who participated in this project.
-
-## Authors
-
-* **Mariam Chaudry** - *Edamam API* - [Mariam Chaudry](https://github.com/mariamschaudry)
-* **Elizabeth Fox** - *Google Maps API* - [Elizabeth Fox](https://github.com/elizabethtfox)
-* **Catherine Muthoni** - *Materialize* - [Catherine Muthoni](https://github.com/dmk6562)
-* **Rodolfo Saez** - *Readme Engineer* - [Rodolfo Saez](https://github.com/rsaez)
-
-See also the list of [contributors](https://github.com/mariamschaudry/Project-1/pulse) who participated in this project.
 
 ## License
 
@@ -59,4 +50,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used
-* George P Burdell

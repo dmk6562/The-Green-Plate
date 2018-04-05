@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  $(document).ready(function(){
+    $('.slider').slider();
+  });
+
 // Initialize Firebase //
 
 var config = {
@@ -20,7 +24,7 @@ var config = {
   
     // Variables for Category Ingredients
 
-    var dairyProducts =["almond milk", "skim milk", "whole milk", "butter milk", "soy milk", "cashew milk", "coconut milk", "rice milk", "hemp milk", "butter", "sour cream", "mozzarella cheese", "feta cheese", "parmesan cheese", "cottage cheese", "American cheese", "cheddar cheese", "Swiss cheese", "provolone cheese", "monterey cheese", "pecorino romano"];
+    var dairyProducts =["almond milk", "skim milk", "whole milk", "butter milk", "soy milk", "cashew milk", "coconut milk", "rice milk", "hemp milk", "butter", "sour cream", "mozzarella cheese", "feta cheese", "parmesan cheese", "cottage cheese", "American cheese", "cheddar cheese", "Swiss cheese", "provolone cheese", "monterey cheese", "pecorino romano", "eggs"];
     
     var breadProducts = ["whole wheat bread", "white bread", "sourdough bread", "pita bread", "naan bread", "rye bread", "brioche", "ciabatta bread", "roti", "tortilla", "pumpernickel bread", "flatbread", "spaghetti", "linguine", "penne", "rigatoni", "orzo", "farfalle", "lasagna noodles", "ravioli"];
 
@@ -457,6 +461,22 @@ var config = {
     getRecipes();
   });
 
+
+// Clear button reset (will clear out all of the text boxes without a page refresh //
+
+  $("#clearRecipe").on("click", function(event) {
+    event.preventDefault(); 
+
+    $("#ingredients").html("");
+    $("#selectedIngredients").html("");
+    $("#apiRecipes").html("") 
+
+    console.log("i cleared the sections");
+
+  }); // <-- Closing of onclick Event for clear button //    
+
+
+    
  // --------------------------------------------------------------------------------------------------------- // 
   // Function for displaying initial recipe array elements as buttons//
     function getRecipes() {
