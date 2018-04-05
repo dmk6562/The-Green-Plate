@@ -127,7 +127,7 @@ nav a:first-child {
     background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
-    font-size: 12px; 
+    font-size: 18px; 
     outline-style: none;
 }
 
@@ -143,7 +143,7 @@ nav a:first-child {
     background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
-    font-size: 12px;
+    font-size: 18px;
     outline-style: none;
 }
 
@@ -159,7 +159,7 @@ nav a:first-child {
     background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
-    font-size: 12px;
+    font-size: 18px;
     outline-style: none;
 }
 
@@ -175,7 +175,7 @@ nav a:first-child {
     background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
-    font-size: 12px;
+    font-size: 18px;
     outline-style: none;
     float: left;
 }
@@ -192,7 +192,7 @@ nav a:first-child {
     background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
-    font-size: 12px;
+    font-size: 18px;
     outline-style: none;
 }
 
@@ -208,7 +208,7 @@ nav a:first-child {
     background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
-    font-size: 12px;
+    font-size: 18px;
     outline-style: none;
 }
 
@@ -224,7 +224,7 @@ nav a:first-child {
     background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
-    font-size: 12px;
+    font-size: 18px;
     outline-style: none;
 
 }
@@ -241,7 +241,7 @@ nav a:first-child {
     background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
-    font-size: 12px;
+    font-size: 18px;
     outline-style: none;
 
 }
@@ -258,14 +258,14 @@ nav a:first-child {
     background-size: 210px 210px;
     color: white; 
     font-family: 'Pacifico', cursive;  
-    font-size: 12px;
+    font-size: 18px;
     outline-style: none;
 
 }
 
 #foodCategories {
     border: 0px solid; 
-    padding-left: 280px; 
+    padding-left: 220px; 
 }
 
 #brand-logo {
@@ -291,8 +291,6 @@ nav a:first-child {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     color: #66bb6a
-
-
 }
 
 #apiRecipes img {
