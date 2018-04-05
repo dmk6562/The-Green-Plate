@@ -477,8 +477,10 @@ var config = {
   }); // <-- Closing of onclick Event for clear button //
 
 
+  
 
- // --------------------------------------------------------------------------------------------------------- //
+    
+ // --------------------------------------------------------------------------------------------------------- // 
   // Function for displaying initial recipe array elements as buttons//
     function getRecipes() {
         var apiKey = "899742294e75cfd27b128b2974895e4d";
