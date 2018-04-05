@@ -213,7 +213,41 @@ nav a:first-child {
 }
 
 #leafyGreensButton {
-    background-image: url("../assets/images/herbs3.jpg");
+    background-image: url("../assets/images/spinach.jpg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-top: 10px;
+    border: 0; 
+    border-radius: 50%;
+    background-size: 115px 115px;
+    color: white; 
+    font-family: 'Pacifico', cursive;  
+    font-size: 12px;
+    outline-style: none;
+
+}
+
+#squashButton {
+    background-image: url("../assets/images/squash.jpg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-top: 10px;
+    border: 0; 
+    border-radius: 50%;
+    background-size: 115px 115px;
+    color: white; 
+    font-family: 'Pacifico', cursive;  
+    font-size: 12px;
+    outline-style: none;
+
+}
+
+#fruitsButton {
+    background-image: url("../assets/images/fruits.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
     height: 115px;
