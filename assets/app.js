@@ -14,18 +14,18 @@ var config = {
     storageBucket: "",
     messagingSenderId: "710811767309"
   };
-  
+
   firebase.initializeApp(config);
 
     // Create a variable to reference the database.
     var database = firebase.database();
-  
+
     var recipes = [];
-  
+
     // Variables for Category Ingredients
 
     var dairyProducts =["almond milk", "skim milk", "whole milk", "butter milk", "soy milk", "cashew milk", "coconut milk", "rice milk", "hemp milk", "butter", "sour cream", "mozzarella cheese", "feta cheese", "parmesan cheese", "cottage cheese", "American cheese", "cheddar cheese", "Swiss cheese", "provolone cheese", "monterey cheese", "pecorino romano", "eggs"];
-    
+
     var breadProducts = ["whole wheat bread", "white bread", "sourdough bread", "pita bread", "naan bread", "rye bread", "brioche", "ciabatta bread", "roti", "tortilla", "pumpernickel bread", "flatbread", "spaghetti", "linguine", "penne", "rigatoni", "orzo", "farfalle", "lasagna noodles", "ravioli"];
 
     var nutsSeedsProducts= ["almonds", "peanuts", "cashews", "Brazil nuts", "hazelnuts", "macadamia", "pecans", "pine nuts", "pistachios", "walnuts", "chestnuts", "sunflower seeds", "pumpkin seeds", "chia seeds", "sesame seeds", "hemp seeds", "flax seeds"]
@@ -43,7 +43,7 @@ var config = {
     var fruitProducts= ["banana", "strawberries", "apples", "mango",  "cantaloupe", "honeydew",  "watermelon", "blackberries", "blueberries", "peaches", "cherries", "oranges", "grapefruit", "pineapple", "pears", "raspberries", "kiwi", "pomegranate", "grapes", "plum"];
 
     var ingredientSelected = [];
-  
+
     // Get Dairy Products and create as button
       function getDairyProducts() {
 
@@ -125,7 +125,7 @@ var config = {
               console.log(legumesProducts);
           }
       }
-  // ----------------------------------------------------------------------------------------------------------------------------- //   
+  // ----------------------------------------------------------------------------------------------------------------------------- //
      // Get Root Vegetable Products and create as button
      function getrootVegetablesProducts() {
 
@@ -165,7 +165,7 @@ var config = {
               console.log(herbsProducts);
           }
       }
-  
+
   // ----------------------------------------------------------------------------------------------------------------------------- //
      // Get Leafy Greens Products and create as button
      function getleafyGreensProducts() {
@@ -232,12 +232,12 @@ var config = {
     //Display Ingredients based on Category button clicked
       $('#dairyButton').on("click", function(event) {
         getDairyProducts();
-      }); 
+      });
 
       $('#breadButton').on("click", function(event) {
         getBreadProducts();
       });
-      
+
       $('#nutsSeedsButton').on("click", function(event) {
         getNutsandSeedsProducts();
       });
@@ -266,20 +266,20 @@ var config = {
         getfruitProducts();
       });
 
-  // --------------------------------------------------------------------------------------------------------- //    
+  // --------------------------------------------------------------------------------------------------------- //
 
     // Display chosen ingredient in Selected Ingredient Panel <--- Dairy
       $(document).on("click",".dairyBtn", function(event) {
-        
+
           var ingrd = this.id;
-        
+
           $('#selectedIngredients').append(ingrd);
           $('#selectedIngredients').append(" ");
           console.log(ingrd);
-          
+
           ingredientSelected.push(ingrd);
           console.log(ingredientSelected);
-        
+
       });
 
       $(document).on("click","#generateRecipe", function(event) {
@@ -289,19 +289,19 @@ var config = {
 
   // --------------------------------------------------------------------------------------------------------- //
 
-  // Display chosen ingredient in Selected Ingredient Panel <--- Bread 
+  // Display chosen ingredient in Selected Ingredient Panel <--- Bread
     $(document).on("click",".breadBtn", function(event) {
-        
+
       var ingrd = this.id;
-    
+
 
       $('#selectedIngredients').append(ingrd);
       $('#selectedIngredients').append(" ");
       console.log(ingrd);
-      
+
       ingredientSelected.push(ingrd);
       console.log(ingredientSelected);
-    
+
     });
 
     $(document).on("click","#generateRecipe", function(event) {
@@ -311,19 +311,19 @@ var config = {
 
 // --------------------------------------------------------------------------------------------------------- //
 
-  // Display chosen ingredient in Selected Ingredient Panel <--- Nuts and Seeds 
+  // Display chosen ingredient in Selected Ingredient Panel <--- Nuts and Seeds
   $(document).on("click",".nutsSeedsBtn", function(event) {
-        
+
     var ingrd = this.id;
-  
+
 
     $('#selectedIngredients').append(ingrd);
     $('#selectedIngredients').append(" ");
     console.log(ingrd);
-    
+
     ingredientSelected.push(ingrd);
     console.log(ingredientSelected);
-  
+
   });
 
   $(document).on("click","#generateRecipe", function(event) {
@@ -333,19 +333,19 @@ var config = {
 
 // --------------------------------------------------------------------------------------------------------- //
 
-  // Display chosen ingredient in Selected Ingredient Panel <--- Legumes  
+  // Display chosen ingredient in Selected Ingredient Panel <--- Legumes
   $(document).on("click",".legumesBtn", function(event) {
-        
+
     var ingrd = this.id;
-  
+
 
     $('#selectedIngredients').append(ingrd);
     $('#selectedIngredients').append(" ");
     console.log(ingrd);
-    
+
     ingredientSelected.push(ingrd);
     console.log(ingredientSelected);
-  
+
   });
 
   $(document).on("click","#generateRecipe", function(event) {
@@ -356,19 +356,19 @@ var config = {
 
 // --------------------------------------------------------------------------------------------------------- //
 
-  // Display chosen ingredient in Selected Ingredient Panel <--- Root Vegetables  
+  // Display chosen ingredient in Selected Ingredient Panel <--- Root Vegetables
   $(document).on("click",".rootVegetablesBtn", function(event) {
-        
+
     var ingrd = this.id;
-  
+
 
     $('#selectedIngredients').append(ingrd);
     $('#selectedIngredients').append(" ");
     console.log(ingrd);
-    
+
     ingredientSelected.push(ingrd);
     console.log(ingredientSelected);
-  
+
   });
 
   $(document).on("click","#generateRecipe", function(event) {
@@ -377,19 +377,19 @@ var config = {
   });
 
 // --------------------------------------------------------------------------------------------------------- //
-  // Display chosen ingredient in Selected Ingredient Panel <--- Herbs 
+  // Display chosen ingredient in Selected Ingredient Panel <--- Herbs
   $(document).on("click",".herbsBtn", function(event) {
-        
+
     var ingrd = this.id;
-  
+
 
     $('#selectedIngredients').append(ingrd);
     $('#selectedIngredients').append(" ");
     console.log(ingrd);
-    
+
     ingredientSelected.push(ingrd);
     console.log(ingredientSelected);
-  
+
   });
 
   $(document).on("click","#generateRecipe", function(event) {
@@ -398,19 +398,19 @@ var config = {
   });
 
 // --------------------------------------------------------------------------------------------------------- //
-  // Display chosen ingredient in Selected Ingredient Panel <--- Leafy Greens 
+  // Display chosen ingredient in Selected Ingredient Panel <--- Leafy Greens
   $(document).on("click",".leafyGreensBtn", function(event) {
-        
+
     var ingrd = this.id;
-  
+
 
     $('#selectedIngredients').append(ingrd);
     $('#selectedIngredients').append(" ");
     console.log(ingrd);
-    
+
     ingredientSelected.push(ingrd);
     console.log(ingredientSelected);
-  
+
   });
 
   $(document).on("click","#generateRecipe", function(event) {
@@ -420,19 +420,19 @@ var config = {
 
 
 // --------------------------------------------------------------------------------------------------------- //
-  // Display chosen ingredient in Selected Ingredient Panel <--- Squash 
+  // Display chosen ingredient in Selected Ingredient Panel <--- Squash
   $(document).on("click",".squashBtn", function(event) {
-        
+
     var ingrd = this.id;
-  
+
 
     $('#selectedIngredients').append(ingrd);
     $('#selectedIngredients').append(" ");
     console.log(ingrd);
-    
+
     ingredientSelected.push(ingrd);
     console.log(ingredientSelected);
-  
+
   });
 
   $(document).on("click","#generateRecipe", function(event) {
@@ -441,19 +441,19 @@ var config = {
   });
 
 // --------------------------------------------------------------------------------------------------------- //
-  // Display chosen ingredient in Selected Ingredient Panel <--- Fruit 
+  // Display chosen ingredient in Selected Ingredient Panel <--- Fruit
   $(document).on("click",".fruitsBtn", function(event) {
-        
+
     var ingrd = this.id;
-  
+
 
     $('#selectedIngredients').append(ingrd);
     $('#selectedIngredients').append(" ");
     console.log(ingrd);
-    
+
     ingredientSelected.push(ingrd);
     console.log(ingredientSelected);
-  
+
   });
 
   $(document).on("click","#generateRecipe", function(event) {
@@ -465,16 +465,19 @@ var config = {
 // Clear button reset (will clear out all of the text boxes without a page refresh //
 
   $("#clearRecipe").on("click", function(event) {
-    event.preventDefault(); 
+    event.preventDefault();
 
     $("#ingredients").html("");
     $("#selectedIngredients").html("");
-    $("#apiRecipes").html("") 
+    $("#apiRecipes").html("");
+
 
     console.log("i cleared the sections");
 
-  }); // <-- Closing of onclick Event for clear button //    
+  }); // <-- Closing of onclick Event for clear button //
 
+
+  
 
     
  // --------------------------------------------------------------------------------------------------------- // 
@@ -483,7 +486,7 @@ var config = {
         var apiKey = "899742294e75cfd27b128b2974895e4d";
         var queryURL = "https://cors-anywhere.herokuapp.com/https://api.edamam.com/search?app_id=2d2c9393&q=" + ingredientSelected + "&app_key=" + apiKey + "&limit=16";
         console.log(queryURL);
-  
+
         $.ajax({
             url: queryURL,
             method: "GET"
@@ -491,50 +494,50 @@ var config = {
           var hits = response.hits;
           for (var i = 0; i < hits.length; i++) {
             console.log(hits[i].recipe.image);
+            // console.log(hits[i].recipe.label);
 
             // var apiImage = $("<img src= '" + hits[i].recipe.image + "'></img>");
-            var apiImage = $("<a href =" + hits[i].recipe.shareAs + " target='_blank'><img src= '" + hits[i].recipe.image + "'></img></a>")
+            var apiImage = $("<a href =" + hits[i].recipe.shareAs + " target='_blank'><img src= '" + hits[i].recipe.image + "' data-tooltip='" + hits[i].recipe.label + "'></img></a>")
             //apiImage.append(response.hits[i].recipe.image);
             $("#apiRecipes").append(apiImage);
-            $("#apiRecipes").append("     ");
         }
       });
-        
-    } 
-    
+
+    }
+
   // <------------------------------------- Up until here the code for the Food Api works ---------------------------------->
-    
-  
-  //disableButton(); 
+
+
+  //disableButton();
 
       //Display Recipes
 
     // $(document).on("click",".recipe", showRecipes);
     //   // Calling the renderButtons function at least once to display the initial list of foods
-  
-  
+
+
     // //Grabbing and storing the data-food property value from the button
     // function showRecipes() {
-    //   var recipes = $(this).attr('data-name'); 
-  
+    //   var recipes = $(this).attr('data-name');
+
     //   //function to prevent repeat buttons
     //   $("#recipeRowOne").empty();
     //   $("#recipeRowTwo").empty();
     //   $("#recipeRowThree").empty();
     //   $("#recipeRowFour").empty();
     //   renderButtons()
-  
-    // //Perfoming an AJAX GET request to our queryURL      
-  
-  
+
+    // //Perfoming an AJAX GET request to our queryURL
+
+
     //     //Storing the array as a variable name
     //     var recipeArr =response.data;
-        
+
     //     //looping through the array in queryURL
     //     for (var i=0; i<recipeArr.length; i++) {
-  
+
     //       var foodRecipes = $('<div class="col-sm-3">')
-        
+
     //     }
 
     // };
