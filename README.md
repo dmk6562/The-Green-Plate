@@ -36,10 +36,10 @@ There is a commented line that will show you the computer output.
 
 ## Contributing Authors 
 
-* **Mariam Chaudry** - *Project Manager* *Edamam Recipe API* *JavaScript* *Materialize* *CSS* - [Mariam Chaudry](https://github.com/mariamschaudry)
-* **Elizabeth Fox** - *Google Maps API* *JavaScript* *CSS* - [Elizabeth Fox](https://github.com/elizabethtfox)
-* **Catherine Muthoni** - *Edamam Recipe API* *JavaScript* *Materialize* *CSS*- [Catherine Muthoni](https://github.com/dmk6562)
-* **Rodolfo Saez** - *Readme Engineer* *CSS* - [Rodolfo Saez](https://github.com/rsaez)
+* **Mariam Chaudry** - *Project Manager*, *Edamam Recipe API*, *JavaScript*, *Materialize*,*CSS* - [Mariam Chaudry](https://github.com/mariamschaudry)
+* **Elizabeth Fox** - *Google Maps API*, *JavaScript*, *CSS* - [Elizabeth Fox](https://github.com/elizabethtfox)
+* **Catherine Muthoni** - *Edamam Recipe API*, *JavaScript*, *Materialize*, *CSS*- [Catherine Muthoni](https://github.com/dmk6562)
+* **Rodolfo Saez** - *Readme Engineer*, *CSS* - [Rodolfo Saez](https://github.com/rsaez)
 
 See also the list of [contributors](https://github.com/mariamschaudry/project-1/contributors) who participated in this project.
 
