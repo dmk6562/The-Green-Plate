@@ -290,6 +290,14 @@ nav a:first-child {
 
 }
 
+#apiRecipes {
+    background: ededed;
+
+}
+
 #apiRecipes img {
-   width: 150px;
+   width: 210px;
+   margin: 2em;
+   /* border-radius: 50%; */
+   border-radius: 20px;
 }

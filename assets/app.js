@@ -492,9 +492,10 @@ var config = {
           var hits = response.hits;
           for (var i = 0; i < hits.length; i++) {
             console.log(hits[i].recipe.image);
+            // console.log(hits[i].recipe.label);
 
             // var apiImage = $("<img src= '" + hits[i].recipe.image + "'></img>");
-            var apiImage = $("<a href =" + hits[i].recipe.shareAs + " target='_blank'><img src= '" + hits[i].recipe.image + "'></img></a>")
+            var apiImage = $("<a href =" + hits[i].recipe.shareAs + " target='_blank'><img src= '" + hits[i].recipe.image + "' data-tooltip='" + hits[i].recipe.label + "'></img></a>")
             //apiImage.append(response.hits[i].recipe.image);
             $("#apiRecipes").append(apiImage);
         }
