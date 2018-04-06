@@ -1,6 +1,6 @@
 # The Green Plate
 
-Users will be able to input or select ingredients of their choice and the app will generate recipes that include selected ingredients. Our application targets an audience interested in exploring various vegetarian food options. We will include a store locator that will provide a list of nearby stores where users can purchase ingredients.
+Users will be able to select ingredients of their choice in order to generate recipes that will include the chosen ingredients. Our application targets an audience interested in exploring various vegetarian food options. A store locator is included that will let users search for their preferred grocery store in order to purchase any additional ingredients.
 
 ## Getting Started
 
@@ -34,7 +34,7 @@ There is a commented line that will show you the computer output.
 * [Edamam API](https://developer.edamam.com/) - Recipe and nutrition API
 * [Google Maps API](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete) - Google Maps API, Place Autocomplete
 
-## Contributing Authors 
+## Contributing Authors
 
 * **Mariam Chaudry** - *Project Manager*, *Edamam Recipe API*, *JavaScript*, *Materialize*,*CSS* - [Mariam Chaudry](https://github.com/mariamschaudry)
 * **Elizabeth Fox** - *Google Maps API*, *JavaScript*, *CSS* - [Elizabeth Fox](https://github.com/elizabethtfox)

@@ -308,8 +308,17 @@ nav a:first-child {
 }
 
 #apiRecipes img {
+<<<<<<< HEAD
     width: 210px;
     margin: 2em;
     /* border-radius: 50%; */
     border-radius: 20px;
 }
+=======
+   width: 210px;
+   margin: 2em;
+   /* border-radius: 50%; */
+   border-radius: 20px;
+   border: 1px ridge lightgrey;
+}
+>>>>>>> 43e0477e9bad8a29dc707a89528acc4cc706b0a4
