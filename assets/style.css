@@ -35,8 +35,14 @@ nav a:first-child {
     padding-bottom: 20px;
 }
 
+.jumbotronLocator {
+    border-bottom: 3px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #map {
-    height: 400px;
+    height: 450px;
     width: 100%;
 }
 #description {
