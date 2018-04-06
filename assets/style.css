@@ -284,6 +284,7 @@ nav a:first-child {
 }
 
 #storelocator {
+    padding-top: 20px;
     font-weight: 300px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
