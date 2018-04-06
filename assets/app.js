@@ -479,9 +479,12 @@ var config = {
  // --------------------------------------------------------------------------------------------------------- //
   // Function for displaying initial recipe array elements as buttons//
     function getRecipes() {
-        var apiKey = "899742294e75cfd27b128b2974895e4d";
-        var queryURL = "https://cors-anywhere.herokuapp.com/https://api.edamam.com/search?app_id=2d2c9393&q=" + ingredientSelected + "&app_key=" + apiKey + "&limit=16";
-        console.log(queryURL);
+      var apiKey = "899742294e75cfd27b128b2974895e4d";
+      var queryURL = "https://cors-anywhere.herokuapp.com/https://api.edamam.com/search?app_id=2d2c9393&q=" + ingredientSelected
+          + "&excluded=chicken&excluded=bacon&excluded=beef&excluded=fish&excluded=turkey&excluded=pork&excluded=lamb&excluded=ham&"
+          + "&app_key="
+          +apiKey + "&limit=16";
+      console.log(queryURL);
 
         $.ajax({
             url: queryURL,

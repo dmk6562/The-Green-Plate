@@ -29,15 +29,22 @@ nav a:first-child {
 }
 
 .jumbotron {
-	background-color: transparent;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.jumbotronLocator {
     border-bottom: 3px solid white;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 #map {
-    height: 400px;
+    height: 450px;
     width: 100%;
+    margin-bottom: 20px; 
 }
 #description {
     font-family: Roboto;
@@ -65,7 +72,7 @@ nav a:first-child {
     outline: none;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     background-color: #fff;
-    font-family: Roboto;
+    font-family: Pacifico;
 }
 
 #pac-container {
@@ -79,7 +86,7 @@ nav a:first-child {
 }
 
 .pac-controls label {
-    font-family: Roboto;
+    font-family: Pacifico;
     font-size: 13px;
     font-weight: 300;
 }
@@ -92,7 +99,8 @@ nav a:first-child {
     margin-left: 12px;
     padding: 0 11px 0 13px;
     text-overflow: ellipsis;
-    width: 400px;
+    width: 345px;
+    height: 24px;
 }
 
 #pac-input:focus {
