@@ -303,13 +303,13 @@ nav a:first-child {
 }
 
 #ingredients {
-    border: 0px solid;
+    border: 0px solid;  
 }
 
 #selectedIngredients {
     border: 0px solid;
+    font-weight: bold;
 }
-
 
 #apiRecipes {
     background: ededed;
