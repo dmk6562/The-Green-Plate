@@ -294,8 +294,6 @@ var config = {
 
       var ingrd = this.id;
 
-
-      $('#selectedIngredients').html("Your selected ingredient(s):  ");
       $('#selectedIngredients').append(ingrd);
       $('#selectedIngredients').append(" ");
       console.log(ingrd);
