@@ -4,7 +4,7 @@ Users will be able to select ingredients of their choice in order to generate re
 
 ## Getting Started
 
-You can use this app NOW: [Green Plate](https://mariamschaudry.github.io/Project-1/). You can also clone or download a copy of this app by clicking the link on the top-right.
+You can use this app NOW: [Green Plate](https://dmk6562.github.io/The-Green-Plate/). You can also clone or download a copy of this app by clicking the link on the top-right.
 
 ### Prerequisites
 
